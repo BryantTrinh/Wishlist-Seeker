@@ -1,6 +1,6 @@
 {
   "name": "Wishlist-Seeker",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "discord.js": "^14.12.1",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
   }
 }
