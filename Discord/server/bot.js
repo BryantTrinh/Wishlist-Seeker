@@ -1,11 +1,10 @@
-const { Client } = require('discord.js');
+const Discord = require('discord.js');
+const dotenv = require('dotenv'); 
+dotenv.config();
 
-const client = new Client();
-
-const TOKEN = process.env.DISCORD_TOKEN;
 
 client.once('ready', () => {
-  console.log(`Logged in as ${client.user.tag}`);
+    console.log('Wishlist Seeker is online.^-^ ');
 });
 
-client.login(TOKEN);
+client.login(process.env.BOT_TOKEN);
